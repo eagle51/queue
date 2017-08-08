@@ -52,6 +52,7 @@ PQueue del(PQueue link)
 		printf("É¾³ıÍê±Ï\n");
 	}
 	free(p);
+	p = NULL;
 	return link;
 }
 
